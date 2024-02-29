@@ -1,7 +1,9 @@
 
-
-.NavBar{
+.mainpage{
     background-color: rgb(240, 240, 240);
+
+}
+.NavBar{
     display:flex;
     padding:15px;
     justify-content: space-evenly;
@@ -31,23 +33,24 @@
 
 }
 .AD{
-    display:inline;
-    margin:0;
-    padding:10px;
+    background-color: white;
+    padding: 7px;
     justify-content: space-evenly;
     font-family: Helvetica, sans-serif;
     font-size: 17px;
-    color: #1b1a1a;
+    color: #302f2f;
     text-align: center;
     vertical-align: top;
     
 }
 .Link1{
+    background-color: white;
     cursor: pointer;
     margin-right: 10px;
 }
 .STORE{
     background-color: rgb(240, 240, 240);
+    align-items: center;
     display:flex;
     padding:15px;
     justify-content: space-evenly;
@@ -56,9 +59,41 @@
     color: #1b1a1a; /* Set the font color */
     font-weight: lighter; /* Set the font weight to lighter */
     font-stretch: condensed;
+    
+}
+.store-name{
+    color: black;
+    font-weight: bold;
+}
+
+.thebestway{
+    font-family: "San Francisco", Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #777;
+
 }
 .HeadIcon{
-text-align: right;
+margin-left:auto;
+font-size:10px;
 background-color: rgb(240, 240, 240)
 
 }
+.products {
+    
+    display: flex; 
+    justify-content: space-between;/* Distribute items evenly along the main axis */
+    width:30px;
+    height: auto; /* Maintain aspect ratio */
+}
+.product img {
+    width: 220px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px;
+}
+
+.product-name {
+    font-size: 25px; /* Adjust font size of product names */
+}
+
